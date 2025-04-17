@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Fonctionnalité : textes et images qui changent avec timer en JS
+    </title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1 class="title">Projets express !!</h1>
+    </header>
+    <main class="main__content">
+      <section class="container">
+        <div>
+          <h2 class="second__title">
+            Vous allez <br />être
+            <span
+              class="alternate__texts"
+              data-alternate-texts
+              data-texts="ébloui, émerveillé, hypnotisé"
+              data-timer="3000"
+              >hypnotisé</span
+            ><br />par tous nos projets !
+          </h2>
+          <a href="#" class="btn"> En savoir plus</a>
+        </div>
+
+        <img
+          class="alternate__images"
+          data-alternate-images
+          src="https://picsum.photos/300/300?random=1"
+          data-images="https://picsum.photos/300/300?random=2,https://picsum.photos/300/300?random=3,https://picsum.photos/300/300?random=4"
+          data-timer="3000"
+        />
+      </section>
+    </main>
+    <footer>
+      <span>Site créé par aperbet56</span>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
