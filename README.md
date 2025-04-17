@@ -6,7 +6,7 @@ Création d'une fonctionnalité permettant de changer et le texte et l'image aff
 
 ## Démonstration
 
-Lien vers le projet :
+Lien vers le projet : https://aperbet56.github.io/textes_et_images_qui_changent_avec_timer_JS/
 
 ## Projet développé avec
 
