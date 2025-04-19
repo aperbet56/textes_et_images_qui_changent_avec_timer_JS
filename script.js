@@ -12,13 +12,13 @@ const alternateTexts = () => {
   const delay = span.dataset.timer;
   // console.log(delay);
 
-  // Création de la variable i (compteur réglé à zéro)
+  // Création de la variable i (index réglé à zéro)
   let i = 0;
 
   // La méthode setInterval() appelle à plusieurs reprises une fonction ou exécute un extrait de code, avec un délai fixe entre chaque appel.
   setInterval(() => {
     if (i < data.length - 1) {
-      // Incrémentation du compteur
+      // Incrémentation de l'index
       i++;
       // console.log(i);
     } else {
@@ -47,13 +47,13 @@ const alternateImages = () => {
   const delay = image.dataset.timer;
   // console.log(delay);
 
-  // Création de la variable i (compteur réglé à zéro)
+  // Création de la variable i (index réglé à zéro)
   let i = 0;
 
   // La méthode setInterval() appelle à plusieurs reprises une fonction ou exécute un extrait de code, avec un délai fixe entre chaque appel.
   setInterval(() => {
     if (i < data.length - 1) {
-      // Incrémentation du compteur
+      // Incrémentation de l'index
       i++;
       // console.log(i);
     } else {
